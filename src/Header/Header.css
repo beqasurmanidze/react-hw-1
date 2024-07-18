@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.backgroundColor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  background-color: #f55a5a;
+  height: 100px;
+}
+
+.img {
+  width: 60px;
+  height: 40px;
+}
