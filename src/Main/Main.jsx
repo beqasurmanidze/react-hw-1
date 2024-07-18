@@ -5,7 +5,7 @@ const Main = () => {
   console.log(styles);
   return (
     <>
-      <div>
+      <div className={styles.cont}>
         {data.map((item, index) => {
           return (
             <>
