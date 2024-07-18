@@ -1,10 +1,35 @@
 .mainCont {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+  width: 90%;
+  margin: 0 auto;
 }
 
 .myImg {
+  margin-top: 50px;
   width: 200px;
   height: 200px;
+}
+
+.location {
+  display: flex;
+  gap: 20px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+}
+
+.p {
+  padding: 20px 15px;
+  width: 300px;
+}
+.dates {
+  padding-left: 15px;
+}
+
+.underLine {
+  width: 90%;
+  height: 2px;
+  background-color: rgb(200, 198, 198);
+  margin: 30px auto;
 }
